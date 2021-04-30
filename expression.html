@@ -1,0 +1,28 @@
+<!doctype html> 
+<html> 
+<head>
+ <script> 
+ function add()
+ { 
+ var x,y,z; x=Number(document.getElementById("first").value); y=Number(document.getElementById("second").value); c= x + y; document.getElementById("answer").value= c; }
+ function sub()
+ { 
+ var x,y,c; x=Number(document.getElementById("first").value);
+  y=Number(document.getElementById("second").value);
+ c= x - y;
+document.getElementById("answer1").value= c;}
+ </script> 
+ </head>
+ <body> 
+ 
+ Enter the First element: <input id="first"> 
+ <br><br>
+ Enter the Second element: <input id="second"> <br><br>
+ <button onclick="add()">+</button><br><br>
+ <input id="answer"><br><br>
+<button onclick="sub()">-</button><br>
+
+<input id="answer1">
+
+</body> 
+</html>
